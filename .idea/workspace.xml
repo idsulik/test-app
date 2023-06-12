@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8ceacc-107e-4b2b-bb43-a4c21941ac84" name="Changes" comment="" />
+    <list default="true" id="6d8ceacc-107e-4b2b-bb43-a4c21941ac84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config/autoload/global.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/Command/ImportImagesCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/Command/ImportImagesCommandFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/Dto/ImageDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/Handler/Image/ImageListHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/Repository/ImageFindAllCriteria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/Repository/ImageRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/Repository/ImageRepositoryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/Repository/ImageRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/_etc/dependencies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/ConfigProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Exception/NotSupportedFileExtensionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Reader/CsvReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Reader/FileReaderFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Reader/JsonReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Reader/ReaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Writer/FileWriterFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Writer/JsonWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Writer/WriterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/_etc/dependencies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/autoload/mezzio.global.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/autoload/mezzio.global.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/ConfigProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/ConfigProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Handler/HomePageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Handler/HomePageHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Handler/HomePageHandlerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Handler/PingHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AppTest/Handler/HomePageHandlerFactoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AppTest/Handler/HomePageHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/AppTest/Handler/HomePageHandlerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AppTest/Handler/PingHandlerTest.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +47,10 @@
   <component name="ComposerSettings" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -91,15 +129,19 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2R6r6tE56bKCgMkBRUb6gWueBO1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/main/test-app",
+    "last_opened_file_path": "/Users/main/test-app/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,11 +152,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/config/autoload" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/App/_etc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.HomePageHandlerTest">
+    <configuration name="HomePageHandlerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="AppTest\Handler\HomePageHandlerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/test/AppTest/Handler/HomePageHandlerTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.HomePageHandlerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -125,11 +184,23 @@
       <option name="presentableId" value="Default" />
       <updated>1686581199851</updated>
       <workItem from="1686581201048" duration="1163000" />
-      <workItem from="1686588697207" duration="295000" />
+      <workItem from="1686588697207" duration="6346000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1686589133897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686589133897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>
