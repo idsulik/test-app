@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App;
 
+use App\Command\ImportImagesCommand;
+
 /**
  * The configuration provider for the App module
  *
@@ -21,7 +23,16 @@ class ConfigProvider
     {
         return [
             'dependencies' => $this->getDependencies(),
-            'templates'    => $this->getTemplates(),
+            'laminas-cli' => $this->getCliConfig(),
+        ];
+    }
+
+    public function getCliConfig(): array
+    {
+        return [
+            'commands' => [
+                'app:import-images' => ImportImagesCommand::class,
+            ],
         ];
     }
 
@@ -30,27 +41,6 @@ class ConfigProvider
      */
     public function getDependencies(): array
     {
-        return [
-            'invokables' => [
-                Handler\PingHandler::class => Handler\PingHandler::class,
-            ],
-            'factories'  => [
-                Handler\HomePageHandler::class => Handler\HomePageHandlerFactory::class,
-            ],
-        ];
-    }
-
-    /**
-     * Returns the templates configuration
-     */
-    public function getTemplates(): array
-    {
-        return [
-            'paths' => [
-                'app'    => ['templates/app'],
-                'error'  => ['templates/error'],
-                'layout' => ['templates/layout'],
-            ],
-        ];
+        return require __DIR__ . '/_etc/dependencies.php';
     }
 }
